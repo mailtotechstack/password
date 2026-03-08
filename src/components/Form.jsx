@@ -1,6 +1,6 @@
 export default function Form(){
   return (
-    <form className="lg:w-2/3 md:mx-5 p-5  border flex flex-col gap-5">
+    <form className="lg:w-2/3 md:mx-5 p-5 lg:mx-auto border flex flex-col gap-5">
       <input placeholder="Enter website URL" className="border w-full rounded-full border-green-400 ps-5" type="text" />
       <div className="md:flex gap-5">
         <input placeholder="Enter Username" className="border w-full rounded-full border-green-400 ps-5" type="text" />
